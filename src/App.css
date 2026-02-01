@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+@font-face {
+  font-family: 'Round'; /* A unique name for your font */
+  src: url('./assets/Fonts/Friend-Bold-BF651631e73b9fd.otf') format('opentype');/* Provide multiple formats for broad browser support */
+  font-weight:bold;
+  font-style: normal;
+  font-display: swap; /* Tells the browser how to handle the font while it's loading */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +47,8 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body{
+  background-color: #2f3768aa;
 }

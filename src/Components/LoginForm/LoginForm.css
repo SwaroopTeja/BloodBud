@@ -1,0 +1,30 @@
+#login-container{
+    background:linear-gradient( rgb(209, 255, 196),rgb(58, 131, 69));
+
+}
+
+#login-head{
+    color: #21305f;
+    font-family: Round;
+}
+
+label{
+    color: #21305f;
+}
+
+#Login{
+    background-color:#21305f;
+    color: white;
+}
+
+#Login:hover{
+    background-color: #738cd6;
+}
+
+.btn:active{
+    border-color: rgb(209, 255, 196);;
+}
+
+#no-acc{
+    font-size: small;
+}
